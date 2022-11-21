@@ -25,14 +25,20 @@ class Person {
         this.last = last;
         this.email = email;
     }
+
+    getIntroduction(){
+        return `Hi my name is ${this.first} ${this.last}. You can contact me at: ${this.email}.`;
+    }
 }
 
 // let person3 = new Person();
 // person3.first = "Rayna";
 // person3.last = "Bell";
 // person3.email = "eliseraynehasawsomesauce@gmail.com"
+
 let person3 = new Person('Rayna', 'Bell', 'ringmybell@gmail.com')
 console.log(person3);
+console.log(person3.getIntroduction());
 
 let person4 = new Person('Jarel', 'Wright', 'idontwattodoit@gmail.com');
 console.log(person4);
