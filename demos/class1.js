@@ -32,6 +32,8 @@ class Person {
 // person3.last = "Bell";
 // person3.email = "eliseraynehasawsomesauce@gmail.com"
 let person3 = new Person('Rayna', 'Bell', 'ringmybell@gmail.com')
-
 console.log(person3);
+
+let person4 = new Person('Jarel', 'Wright', 'idontwattodoit@gmail.com');
+console.log(person4);
 
