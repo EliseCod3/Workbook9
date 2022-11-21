@@ -21,6 +21,6 @@ let employee1 = new Employee (1, "Ian", "Auston", "Graphic Artist", 42.50);
     console.log(`Pay rate is $${employee1.payRate}`);
 
 let employee2 = new Employee (2, "Ray", "Bell", "Software Developer", 63.93);
-console.log(`Employee ${employee2.fullName()} created`);
-console.log(`Job title is ${employee2.jobTitle}`);
-console.log(`Pay rate is $${employee2.payRate}`);
+    console.log(`Employee ${employee2.fullName()} created`);
+    console.log(`Job title is ${employee2.jobTitle}`);
+    console.log(`Pay rate is $${employee2.payRate}`);
