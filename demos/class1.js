@@ -12,7 +12,6 @@ let person2 = {
     email: 'blackisback@gmail.com'
 
 }
-
 console.log(person2);
 
 class Person {
