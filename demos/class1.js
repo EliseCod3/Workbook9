@@ -26,13 +26,14 @@ class Person {
         this.email = email;
     }
 
+    getFullName(){
+        return `${this.first} ${this.last}`;
+    }
+
     getIntroduction(){
         return `Hi my name is ${this.first} ${this.last}. You can contact me at: ${this.email}.`;
     }
 
-    logIntroduction(){
-        console.log(this.getIntroduction());
-    }
 }
 
 // let person3 = new Person();
@@ -41,6 +42,7 @@ class Person {
 // person3.email = "eliseraynehasawsomesauce@gmail.com"
 
 let person3 = new Person('Rayna', 'Bell', 'ringmybell@gmail.com')
+
 console.log(person3);
 console.log(person3.getIntroduction());
 
@@ -48,5 +50,4 @@ let person4 = new Person('Jarel', 'Wright', 'idontwattodoit@gmail.com');
 console.log(person4);
 console.log(person4.getIntroduction());
 
-person4.logIntroduction();
 
