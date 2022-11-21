@@ -42,4 +42,5 @@ console.log(person3.getIntroduction());
 
 let person4 = new Person('Jarel', 'Wright', 'idontwattodoit@gmail.com');
 console.log(person4);
+console.log(person4.getIntroduction());
 
